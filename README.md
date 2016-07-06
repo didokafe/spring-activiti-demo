@@ -2,6 +2,8 @@ Code for the Activiti & Spring Boot webinar  (http://www.jorambarrez.be/blog/201
 
 First, clone the latest and greatest Activiti from https://github.com/Activiti/Activiti
 
+This project was cloned from the url above.
 
+I have just played with it and pushed in case needed later.
 
 
