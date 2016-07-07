@@ -5,5 +5,12 @@ First, clone the latest and greatest Activiti from https://github.com/Activiti/A
 This project was cloned from the url above.
 
 I have just played with it and pushed in case needed later.
+Started to dockerize the application.
+
+Build the docker image: 
+`mvn clean package docker:build`
+
+Run the docker container: 
+`docker run --net="host" -p 8888:8888 -t demo`
 
 

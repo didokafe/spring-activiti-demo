@@ -20,11 +20,11 @@ public class ServiceTestDelegate implements JavaDelegate {
 
     @Override
     public void execute(DelegateExecution execution) throws Exception {
-        List<ServiceInstance> instances = this.discoveryClient.getInstances("a-bootiful-client");
+        /*List<ServiceInstance> instances = this.discoveryClient.getInstances("a-bootiful-client");
         ServiceInstance instance = instances.get(0);
         List<String> services = this.discoveryClient.getServices();
         System.out.println("instances: " + instances);
-        services.forEach(s -> System.out.println("service name: " + s));
+        services.forEach(s -> System.out.println("service name: " + s));*/
     }
 
 }
